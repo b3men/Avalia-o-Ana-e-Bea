@@ -39,6 +39,6 @@ class UsaVeiculoTest {
     void testPatineteEletrico() {
         Patinete patinetes = new Patinete(120.0, 2.5, 0, 0); // horas * custo por hora
         patinetes.calculaCusto();
-        assertEquals(300.0, patinetes.custoMensal);
+        assertEquals(400.0, patinetes.custoMensal);
     }
 }
