@@ -64,7 +64,7 @@ public class UsaVeiculo {
             double numeroCorridas = Double.parseDouble(JOptionPane.showInputDialog("Digite o Número de corridas:"));
             double qtdBicicletas = Double.parseDouble(JOptionPane.showInputDialog("Digite a quantidade de bicicletas:"));
             double qtdQuilometros = Double.parseDouble(JOptionPane.showInputDialog("Digite a quantidade de quilômetros percorridos:"));
-            double qtdHoraUsada = Double.parseDouble(JOptionPane.showInputDialog("Digite a quantidade de horas usadas no mês:"));
+            double qtdHoraUsada = Double.parseDouble(JOptionPane.showInputDialog("Digite a quantidade de horas usadas por mês:"));
 
             if (op == 1) cadastraOnibus( custoFixo,  custoUnidade,  custoMensal);
             if (op == 2) cadastraTaxi(custoFixo,  custoUnidade,  custoMensal,  numeroCorridas);
