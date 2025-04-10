@@ -25,7 +25,8 @@ public class Onibus extends Veiculo {
 
     @Override
     public String toString() {
-        return super.toString();
+        String ret = "O custo mensal do Onibus é de: R$" + custoMensal;
+        return ret;
     }
 
 }

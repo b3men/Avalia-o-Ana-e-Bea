@@ -33,6 +33,8 @@ public class Bicicleta extends Veiculo {
 
     @Override
     public String toString() {
-        return super.toString();
+        String ret = "O custo mensal da Bicicleta é de: R$" + custoMensal;
+        return ret;
+
     }
 }

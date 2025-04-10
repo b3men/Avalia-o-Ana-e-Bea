@@ -30,6 +30,8 @@ public class Patinete extends Veiculo {
 
     @Override
     public String toString() {
-        return super.toString();
+        String ret = "O custo mensal do Patinete é de: R$" + custoMensal;
+        return ret;
+
     }
 }

@@ -33,7 +33,8 @@ public class Taxi extends Veiculo {
 
     @Override
     public String toString() {
-        return super.toString();
+        String ret = "O custo mensal do Taxi é de: R$" + custoMensal;
+        return ret;
     }
 
 }

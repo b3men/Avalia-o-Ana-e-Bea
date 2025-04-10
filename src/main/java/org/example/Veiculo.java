@@ -58,7 +58,6 @@ public class Veiculo {
 
     @Override
     public String toString() {
-        return "Veículo [custoFixo=" + custoFixo + ", custoUnidade=" + custoUnidade + ", custoMensal=" + custoMensal
-                +  "]";
+        return " ";
     }
 }

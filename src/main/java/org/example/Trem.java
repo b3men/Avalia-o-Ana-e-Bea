@@ -33,7 +33,8 @@ public class Trem extends Veiculo {
 
     @Override
     public String toString() {
-        return super.toString();
+        String ret = "O custo mensal do Trem é de: R$" + custoMensal;
+        return ret;
     }
 }
 
