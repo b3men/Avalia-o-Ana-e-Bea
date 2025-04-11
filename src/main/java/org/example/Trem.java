@@ -17,7 +17,7 @@ public class Trem extends Veiculo {
     }
 
     public void verificaValorNegativo(double custoFixo, double qtdQuilometros, double custoUnidade) {
-        if (qtdQuilometros >= 0 && custoUnidade >= 0 && custoFixo >= 0) {
+        if (qtdQuilometros >= 0 || custoUnidade >= 0 || custoFixo >= 0) {
             this.qtdQuilometros = 0;
             this.custoUnidade = custoUnidade;
             this.custoFixo = 0;
